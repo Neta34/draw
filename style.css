@@ -1,0 +1,32 @@
+body{
+    font-family: cursive;
+    font-weight: bolder;
+    background-color:crimson;
+}
+
+#your_sketch{
+    color: rgb(0, 247, 255);
+    font-size: 28px;
+}
+
+#confidence{
+    color: rgb(0, 255, 0);
+    font-size: 28px;
+}
+
+#sketch{
+    color: rgb(255, 251, 0);
+    font-size: 28px;
+}
+
+#timer{
+    font-size: 28px;
+    color: rgb(255, 94, 0);
+    text-align: right;
+}
+
+#score{
+    font-size: 28px;
+    color: rgb(255, 94, 0);
+    text-align: right;
+}
