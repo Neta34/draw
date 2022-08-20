@@ -7,6 +7,7 @@ body{
 #your_sketch{
     color: rgb(0, 247, 255);
     font-size: 28px;
+    
 }
 
 #confidence{
@@ -21,12 +22,35 @@ body{
 
 #timer{
     font-size: 28px;
-    color: rgb(255, 94, 0);
+    color: rgb(255, 166, 0);
     text-align: right;
 }
 
 #score{
     font-size: 28px;
-    color: rgb(255, 94, 0);
+    color: rgb(255, 166, 0);
     text-align: right;
+}
+
+h1{
+    
+    background-color: orange;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 13s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(0, 195, 255);}
+    to{box-shadow: 1px 1px 38px rgb(196, 3, 255);}
 }
